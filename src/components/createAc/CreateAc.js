@@ -39,11 +39,11 @@ export function CreateAc(props) {
             <input type="checkbox" className="w-[22px] h-[22px] mt-6" />
             <p className=" h-[21px] text-[#7F7F7F] text-[14px] mt-6">
               By Proceeding, I agree to all{" "}
-              <a href="#" className="text-blue-500 border-b border-blue-500">
+              <a href="https://example.com" className="text-blue-500 border-b border-blue-500">
                 T&C
               </a>
               and{" "}
-              <a href="#" className="text-blue-500  border-b border-blue-500">
+              <a href="https://example.com" className="text-blue-500  border-b border-blue-500">
                 Privacy Policy
               </a>
             </p>
@@ -75,7 +75,7 @@ export function CreateAc(props) {
               {" "}
               <p>
                 Already have an account?
-                <a href="#" className="text-blue-500">
+                <a href="https://example.com" className="text-blue-500">
                   Login
                 </a>
               </p>
