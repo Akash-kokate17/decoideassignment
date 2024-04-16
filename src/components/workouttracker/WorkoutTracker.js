@@ -77,7 +77,7 @@ export function WorkoutTracker(props) {
            </div>
            <div className="p-3">
             <div className="h-[100px] w-[100px] rounded-full bg-[#c6e0e9]">
-            <img className="h-[100px]" src="https://s3-alpha-sig.figma.com/img/23ae/977c/32610d884493905711642300c8cc67c0?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DUnfWDBxBCh7EVxPNbDubqeRWNZ8WdDo8WW-dQlcer3wqvJ2dewWt5m2pvdrgLloWQxv8Ekm6PirETG-2KQs-Zxikr7OPSuy2w1TVU79mOWjRt2OQgnrvftYrDhTSb1-Z2XPufgpvvIjrsKv17pmeo3kb0q1-OVWJP3cwF27K9I0g5w6XwAz2olHowedMI3DJhX9oQyYs5wHzlvZypYgIOwFC0EGdRuDgcUSVFheupFT6vEK4KayiGgCN2TDfH0ZuoDBdCidY9fJuJSAcdoTPhFsMeBSseUsrtgk15HSXnWrS~pwhe6LmxHnkgcK-uAp8f~rYiowr23l24yn-lynHA__"/>
+            <img className="h-[100px]" src="https://s3-alpha-sig.figma.com/img/23ae/977c/32610d884493905711642300c8cc67c0?Expires=1714348800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DUnfWDBxBCh7EVxPNbDubqeRWNZ8WdDo8WW-dQlcer3wqvJ2dewWt5m2pvdrgLloWQxv8Ekm6PirETG-2KQs-Zxikr7OPSuy2w1TVU79mOWjRt2OQgnrvftYrDhTSb1-Z2XPufgpvvIjrsKv17pmeo3kb0q1-OVWJP3cwF27K9I0g5w6XwAz2olHowedMI3DJhX9oQyYs5wHzlvZypYgIOwFC0EGdRuDgcUSVFheupFT6vEK4KayiGgCN2TDfH0ZuoDBdCidY9fJuJSAcdoTPhFsMeBSseUsrtgk15HSXnWrS~pwhe6LmxHnkgcK-uAp8f~rYiowr23l24yn-lynHA__" alt="photoOfWorkout"/>
             </div>
            </div>
           </div>

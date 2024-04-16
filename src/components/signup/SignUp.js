@@ -62,7 +62,7 @@ export function SignUp(props) {
               <Link to="/createac">
                 <p>
                   Don't have an account yet?
-                  <a href="#" className="text-blue-500">
+                  <a href="https://example.com" className="text-blue-500">
                     create an account
                   </a>
                 </p>
