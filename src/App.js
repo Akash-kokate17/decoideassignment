@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Schedule } from "./components/workoutschedule/Schedule";
+import { Route, Routes } from "react-router-dom";
+import { BottomBar } from "./components/bottombar/BottomBar";
+import { SignUp } from "./components/signup/SignUp";
+import { YourGoals } from "./components/yourgoal/YourGoals";
+import { WorkoutTracker } from "./components/workouttracker/WorkoutTracker";
+import { CreateAc } from "./components/createAc/CreateAc";
+import { Goal } from "./components/goalPage/Goal";
+import { Burn } from "./components/burnPage/Burn";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route exact path="/" element={<Goal />} />
+        <Route exact path="/goal" element={<Goal />} />
+        <Route exact path="/burn" element={<Burn />} />
+        <Route exact path="/createac" element={<CreateAc />} />
+        <Route exact path="/signup" element={<SignUp />} />
+        <Route exact path="/yourgoals" element={<YourGoals />} />
+        <Route exact path="/workouttracker" element={<WorkoutTracker />} />
+        <Route exact path="/bottombar" element={<BottomBar />} />
+        <Route exact path="/schedule" element={<Schedule />} />
+        {/* <Route exact path="*" element={} /> */}
+      </Routes>
+    </>
   );
 }
 
